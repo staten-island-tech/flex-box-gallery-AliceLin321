@@ -7,16 +7,30 @@ body,
   font-size: 62.5%; /* normally 100% but we want it to be 10 px so its 62.5%*/
 }
 .parent {
+  width: 21%;
   display: flex;
-  font-size: 3rem;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  height: 39rem;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(190, 14, 14);
+  box-sizing: border-box;
 }
-
+.body {
+  color: indigo;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
 .child {
-  font-size: 1rem;
-  width: 28%;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  background-color: black;
+  width: 21%;
+  display: flex;
+  height: 39rem;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem auto;
 }
