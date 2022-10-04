@@ -6,31 +6,29 @@ body,
   box-sizing: border-box;
   font-size: 62.5%; /* normally 100% but we want it to be 10 px so its 62.5%*/
 }
-.parent {
-  width: 21%;
-  display: flex;
-  height: 39rem;
-  padding: 1rem 2rem;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(190, 14, 14);
-  box-sizing: border-box;
+
+.header {
+  text-align: center;
 }
 .body {
-  color: indigo;
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
+  background: color black;
 }
-.child {
-  background-color: black;
-  width: 21%;
+.container {
   display: flex;
-  height: 39rem;
-  padding: 1rem 2rem;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin: 5rem auto;
+  justify-content: center;
+}
+.card {
+ background: color aliceblue;
+ width: 250px;
+ height 450px;
+ margin: 10px;
+ border-radius: 10px 10px 0 0;
+}
+.card-image {
+  height: 180px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.animal-1 {
+  background-image: url(https://i.pinimg.com/736x/c3/3e/38/c33e38ba0b4a6252bfb4276926a1c4d2.jpg);
 }
