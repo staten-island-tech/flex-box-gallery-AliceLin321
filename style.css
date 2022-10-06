@@ -13,16 +13,17 @@ body,
 }
 h2 {
   font-size: 4.5rem;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   text-align: center;
-    margin: auto;
-    background-color: rgb(49, 51, 216);
-    width: auto;
-    border: .25rem solid;
-    border-color:rgb(173, 173, 191);
+  margin: auto;
+  background-color: rgb(145, 233, 139);
+  width: auto;
+  border: 0.25rem solid;
+  border-color: rgb(173, 173, 191);
 }
 .body {
   background-color: black;
+  background-size: cover;
 }
 .container {
   display: flex;
@@ -30,7 +31,7 @@ h2 {
   flex-wrap: wrap;
 }
 .card {
-  background-color: rgb(101, 105, 108);
+  background-color: floralwhite;
   width: 25rem;
   height: 800px;
   margin: 10px;
@@ -39,11 +40,22 @@ h2 {
   padding-bottom: 32%; /* Same as width, sets height */
   margin-bottom: 2%; /* (100-32*3)/2 */
   position: relative;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 5px 5px rgb(57, 55, 55);
 }
 .card-image {
-  height: 180px;
-  margin-bottom: 15px;
-  background-size: cover;
+  max-width: 25rem;
+  height: 800px;
+  margin: 10px;
+  border-radius: 10px 10px 0 0;
+  width: 32%;
+  padding-bottom: 32%; /* Same as width, sets height */
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 5px 5px rgb(57, 55, 55);
 }
 .animal-1 {
   background-image: url(https://i.pinimg.com/736x/c3/3e/38/c33e38ba0b4a6252bfb4276926a1c4d2.jpg);
