@@ -11,6 +11,16 @@ body,
   text-align: center;
   font-size: 10rem;
 }
+h2 {
+  font-size: 4.5rem;
+  font-family: 'Lora', serif;
+  text-align: center;
+    margin: auto;
+    background-color: rgb(49, 51, 216);
+    width: auto;
+    border: .25rem solid;
+    border-color:rgb(173, 173, 191);
+}
 .body {
   background-color: black;
 }
