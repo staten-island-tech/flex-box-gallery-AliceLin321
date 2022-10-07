@@ -20,6 +20,7 @@ h2 {
   width: auto;
   border: 0.25rem solid;
   border-color: rgb(173, 173, 191);
+  border-radius: 25px;
 }
 .body {
   background-color: black;
@@ -27,60 +28,24 @@ h2 {
 }
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 2%;
 }
 .card {
-  background-color: floralwhite;
-  width: 25rem;
-  height: 800px;
-  margin: 10px;
-  border-radius: 10px 10px 0 0;
-  width: 32%;
-  padding-bottom: 32%; /* Same as width, sets height */
-  margin-bottom: 2%; /* (100-32*3)/2 */
-  position: relative;
-  display: flex;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 10px 5px 5px rgb(57, 55, 55);
+  background-color: white;
+  border: 8px solid black;
+  border-radius: 10%;
+  width: 43rem;
+  height: 50rem;
+  margin: 2%;
+  align-content: flex-end;
+  box-shadow: 2em 2em 2em;
+
 }
-.card-image {
-  max-width: 25rem;
-  height: 800px;
-  margin: 10px;
-  border-radius: 10px 10px 0 0;
-  width: 32%;
-  padding-bottom: 32%; /* Same as width, sets height */
-  margin-bottom: 2%; /* (100-32*3)/2 */
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 10px 5px 5px rgb(57, 55, 55);
-}
-.animal-1 {
-  background-image: url(https://i.pinimg.com/736x/c3/3e/38/c33e38ba0b4a6252bfb4276926a1c4d2.jpg);
-}
-.animal-2 {
-  background-image: url(http://cdn.shopify.com/s/files/1/1428/7694/articles/smiling_quokka_600x600.png?v=1599445671);
-}
-.animal-3 {
-  background-image: url(https://i.natgeofe.com/k/41de528e-c521-4a29-ade6-d385d9a4e5f7/sea-otter-closeup.jpg);
-}
-.animal-4 {
-  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lionel-animals-to-follow-on-instagram-1568319926.jpg?crop=0.922xw:0.738xh;0.0555xw,0.142xh&resize=640:*);
-}
-.animal-5 {
-  background-image: url(https://static.boredpanda.com/blog/wp-content/uploads/2014/03/cute-fluffy-animals-26.jpg);
-}
-.animal-6 {
-  background-image: url(https://sites.psu.edu/siowfa16/files/2016/09/baby-seal-29vsgyf.jpg);
-}
-.animal-7 {
-  background-image: url(https://posts-cdn.kueez.net/XBqeCuIK2PZNOM0R/TiXkbV0igB6WpWpr.jpg);
-}
-.animal-8 {
-  background-image: url(https://i.ytimg.com/vi/ds4J42JsD7E/maxresdefault.jpg);
-}
-.animal-9 {
-  background-image: url(https://img.huffingtonpost.com/asset/5cd3b1592100003100d401e4.jpeg?ops=1778_1000);
+img {
+  width:  60%;
+  height: 35%;
+ margin: 20%;
+ border-radius: 10%;
 }
