@@ -16,14 +16,14 @@ h2 {
   font-family: "Lora", serif;
   text-align: center;
   margin: auto;
-  background-color: rgb(145, 233, 139);
+  background-color: rgb(182, 233, 178);
   width: auto;
   border: 0.25rem solid;
   border-color: rgb(173, 173, 191);
   border-radius: 25px;
 }
-.body {
-  background-color: black;
+body {
+  background-image: url(https://cdn.evergreenlandscapes.ca/wp-content/uploads/2018/06/grass.jpg.webp);
   background-size: cover;
 }
 .container {
@@ -33,19 +33,18 @@ h2 {
   margin: 2%;
 }
 .card {
-  background-color: white;
-  border: 8px solid black;
+  background-color: rgb(231, 231, 185);
+  border: 8px solid rgb(179, 204, 198);
   border-radius: 10%;
   width: 43rem;
   height: 50rem;
   margin: 2%;
   align-content: flex-end;
-  box-shadow: 2em 2em 2em;
-
+  box-shadow: 3em 3em 3em;
 }
-img {
-  width:  60%;
+.alice {
+  width: 60%;
   height: 35%;
- margin: 20%;
- border-radius: 10%;
+  margin: 20%;
+  border-radius: 10%;
 }
