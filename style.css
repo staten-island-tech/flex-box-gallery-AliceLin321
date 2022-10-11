@@ -41,15 +41,9 @@ body {
   margin: 2%;
   align-content: flex-end;
   box-shadow: 3em 3em 3em;
+  transition: all 0.3s;
 }
-.card:hover {
-  top: -40px;
-  left: 40px;
-  box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
-    0 0 0 -3px var(--background), 0 0 0 0 var(--yellow),
-    0 0 0 -3px var(--background), 0 0 0 0 var(--orange),
-    0 0 0 -3px var(--background), 0 0 0 0 var(--red);
-}
+
 * {
   padding: 0;
   margin: 0;
@@ -60,4 +54,7 @@ body {
   height: 35%;
   margin: 20%;
   border-radius: 10%;
+}
+.card:hover {
+  transform: scale(1.25);
 }
