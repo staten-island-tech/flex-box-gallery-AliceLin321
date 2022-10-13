@@ -36,7 +36,7 @@ body {
   background-color: rgb(231, 231, 185);
   border: 8px solid rgb(179, 204, 198);
   border-radius: 10%;
-  width: 43rem;
+  width: 27%;
   height: 50rem;
   margin: 2%;
   align-content: flex-end;
@@ -57,4 +57,20 @@ body {
 }
 .card:hover {
   transform: scale(1.25);
+}
+.capybara:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+.quokka:hover {
+  transform: skewY(17deg);
+}
+.otter:hover {
+  transform: skewX(17deg);
+}
+.hedgehog:hover {
+  transform: scaleY(1.5);
+}
+.pom:hover {
+  transform: scaleX(1.5);
 }
