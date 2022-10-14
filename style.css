@@ -21,6 +21,11 @@ h2 {
   border: 0.25rem solid;
   border-color: rgb(173, 173, 191);
   border-radius: 25px;
+
+  background-color: rgb(132, 112, 191);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 body {
   background-image: url(https://cdn.evergreenlandscapes.ca/wp-content/uploads/2018/06/grass.jpg.webp);
@@ -59,7 +64,7 @@ body {
   transform: scale(1.25);
 }
 .capybara:hover {
-  transform: rotate(360deg);
+  transform: rotateX(360deg);
   transition-duration: 2s;
 }
 .quokka:hover {
@@ -69,8 +74,42 @@ body {
   transform: skewX(17deg);
 }
 .hedgehog:hover {
-  transform: scaleY(1.5);
+  transform: scaleY(1.2);
 }
 .pom:hover {
-  transform: scaleX(1.5);
+  transform: scaleX(1.2);
+}
+.seal:hover {
+  transform: translateY(50px);
+  transition-duration: 1.5s;
+}
+.panda:hover {
+  transform: translateX(50px);
+  transition-duration: 1.5s;
+}
+.antelope:hover {
+  transform: rotateY(360deg);
+  transition-duration: 2.2s;
+}
+.rabbit:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+@keyframes example {
+  0% {
+    background-color: rgb(142, 184, 216);
+  }
+  25% {
+    background-color: rgb(150, 157, 240);
+  }
+  50% {
+    background-color: rgb(93, 86, 199);
+  }
+
+  75% {
+    background-color: rgb(62, 77, 209);
+  }
+  100% {
+    background-color: rgb(142, 184, 216);
+  }
 }
