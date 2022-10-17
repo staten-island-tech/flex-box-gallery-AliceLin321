@@ -113,3 +113,9 @@ body {
     background-color: rgb(142, 184, 216);
   }
 }
+
+@media (max-width 728px;) {
+  img {
+    width: 100%;
+  }
+}
